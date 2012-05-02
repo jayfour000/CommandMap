@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE87C99615518C110072F7D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C99515518C110072F7D0 /* Foundation.framework */; };
+		EE87C99C15518C110072F7D0 /* CommandMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87C99B15518C110072F7D0 /* CommandMap.m */; };
+		EE87C9A415518C110072F7D0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C9A315518C110072F7D0 /* SenTestingKit.framework */; };
+		EE87C9A615518C110072F7D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C9A515518C110072F7D0 /* UIKit.framework */; };
+		EE87C9A715518C110072F7D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C99515518C110072F7D0 /* Foundation.framework */; };
+		EE87C9AA15518C110072F7D0 /* libCommandMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C99215518C110072F7D0 /* libCommandMap.a */; };
+		EE87C9B015518C110072F7D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE87C9AE15518C110072F7D0 /* InfoPlist.strings */; };
+		EE87C9B315518C110072F7D0 /* CommandMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87C9B215518C110072F7D0 /* CommandMapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE87C9A815518C110072F7D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE87C98915518C110072F7D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE87C99115518C110072F7D0;
+			remoteInfo = CommandMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE87C99215518C110072F7D0 /* libCommandMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommandMap.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE87C99515518C110072F7D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE87C99915518C110072F7D0 /* CommandMap-Prefix.pch */ = {isa = PBXFileReference; path = "CommandMap-Prefix.pch"; sourceTree = "<group>"; };
+		EE87C99A15518C110072F7D0 /* CommandMap.h */ = {isa = PBXFileReference; path = CommandMap.h; sourceTree = "<group>"; };
+		EE87C99B15518C110072F7D0 /* CommandMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandMap.m; sourceTree = "<group>"; };
+		EE87C9A215518C110072F7D0 /* CommandMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommandMapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE87C9A315518C110072F7D0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE87C9A515518C110072F7D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE87C9AD15518C110072F7D0 /* CommandMapTests-Info.plist */ = {isa = PBXFileReference; path = "CommandMapTests-Info.plist"; sourceTree = "<group>"; };
+		EE87C9AF15518C110072F7D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE87C9B115518C110072F7D0 /* CommandMapTests.h */ = {isa = PBXFileReference; path = CommandMapTests.h; sourceTree = "<group>"; };
+		EE87C9B215518C110072F7D0 /* CommandMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandMapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE87C98F15518C110072F7D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87C99615518C110072F7D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE87C99E15518C110072F7D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87C9A415518C110072F7D0 /* SenTestingKit.framework in Frameworks */,
+				EE87C9A615518C110072F7D0 /* UIKit.framework in Frameworks */,
+				EE87C9A715518C110072F7D0 /* Foundation.framework in Frameworks */,
+				EE87C9AA15518C110072F7D0 /* libCommandMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE87C98715518C110072F7D0 = {
+			isa = PBXGroup;
+			children = (
+				EE87C99715518C110072F7D0 /* CommandMap */,
+				EE87C9AB15518C110072F7D0 /* CommandMapTests */,
+				EE87C99415518C110072F7D0 /* Frameworks */,
+				EE87C99315518C110072F7D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE87C99315518C110072F7D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE87C99215518C110072F7D0 /* libCommandMap.a */,
+				EE87C9A215518C110072F7D0 /* CommandMapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE87C99415518C110072F7D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE87C99515518C110072F7D0 /* Foundation.framework */,
+				EE87C9A315518C110072F7D0 /* SenTestingKit.framework */,
+				EE87C9A515518C110072F7D0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE87C99715518C110072F7D0 /* CommandMap */ = {
+			isa = PBXGroup;
+			children = (
+				EE87C99A15518C110072F7D0 /* CommandMap.h */,
+				EE87C99B15518C110072F7D0 /* CommandMap.m */,
+				EE87C99815518C110072F7D0 /* Supporting Files */,
+			);
+			path = CommandMap;
+			sourceTree = "<group>";
+		};
+		EE87C99815518C110072F7D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE87C99915518C110072F7D0 /* CommandMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE87C9AB15518C110072F7D0 /* CommandMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE87C9B115518C110072F7D0 /* CommandMapTests.h */,
+				EE87C9B215518C110072F7D0 /* CommandMapTests.m */,
+				EE87C9AC15518C110072F7D0 /* Supporting Files */,
+			);
+			path = CommandMapTests;
+			sourceTree = "<group>";
+		};
+		EE87C9AC15518C110072F7D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE87C9AD15518C110072F7D0 /* CommandMapTests-Info.plist */,
+				EE87C9AE15518C110072F7D0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EE87C99015518C110072F7D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EE87C99115518C110072F7D0 /* CommandMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE87C9B615518C110072F7D0 /* Build configuration list for PBXNativeTarget "CommandMap" */;
+			buildPhases = (
+				EE87C98E15518C110072F7D0 /* Sources */,
+				EE87C98F15518C110072F7D0 /* Frameworks */,
+				EE87C99015518C110072F7D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandMap;
+			productName = CommandMap;
+			productReference = EE87C99215518C110072F7D0 /* libCommandMap.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE87C9A115518C110072F7D0 /* CommandMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE87C9B915518C110072F7D0 /* Build configuration list for PBXNativeTarget "CommandMapTests" */;
+			buildPhases = (
+				EE87C99D15518C110072F7D0 /* Sources */,
+				EE87C99E15518C110072F7D0 /* Frameworks */,
+				EE87C99F15518C110072F7D0 /* Resources */,
+				EE87C9A015518C110072F7D0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE87C9A915518C110072F7D0 /* PBXTargetDependency */,
+			);
+			name = CommandMapTests;
+			productName = CommandMapTests;
+			productReference = EE87C9A215518C110072F7D0 /* CommandMapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE87C98915518C110072F7D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EE87C98C15518C110072F7D0 /* Build configuration list for PBXProject "CommandMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE87C98715518C110072F7D0;
+			productRefGroup = EE87C99315518C110072F7D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE87C99115518C110072F7D0 /* CommandMap */,
+				EE87C9A115518C110072F7D0 /* CommandMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE87C99F15518C110072F7D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87C9B015518C110072F7D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE87C9A015518C110072F7D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE87C98E15518C110072F7D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87C99C15518C110072F7D0 /* CommandMap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE87C99D15518C110072F7D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87C9B315518C110072F7D0 /* CommandMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE87C9A915518C110072F7D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE87C99115518C110072F7D0 /* CommandMap */;
+			targetProxy = EE87C9A815518C110072F7D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE87C9AE15518C110072F7D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE87C9AF15518C110072F7D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE87C9B415518C110072F7D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE87C9B515518C110072F7D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE87C9B715518C110072F7D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CommandMap.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommandMap/CommandMap-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE87C9B815518C110072F7D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CommandMap.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommandMap/CommandMap-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EE87C9BA15518C110072F7D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommandMap/CommandMap-Prefix.pch";
+				INFOPLIST_FILE = "CommandMapTests/CommandMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EE87C9BB15518C110072F7D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommandMap/CommandMap-Prefix.pch";
+				INFOPLIST_FILE = "CommandMapTests/CommandMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE87C98C15518C110072F7D0 /* Build configuration list for PBXProject "CommandMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE87C9B415518C110072F7D0 /* Debug */,
+				EE87C9B515518C110072F7D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE87C9B615518C110072F7D0 /* Build configuration list for PBXNativeTarget "CommandMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE87C9B715518C110072F7D0 /* Debug */,
+				EE87C9B815518C110072F7D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE87C9B915518C110072F7D0 /* Build configuration list for PBXNativeTarget "CommandMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE87C9BA15518C110072F7D0 /* Debug */,
+				EE87C9BB15518C110072F7D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE87C98915518C110072F7D0 /* Project object */;
+}
