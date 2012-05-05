@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE4B22751554EDD5009F9E60 /* libCommandMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C99215518C110072F7D0 /* libCommandMap.a */; };
+		EE4D22C31554EAC600BC4520 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4D22C21554EAC600BC4520 /* UIKit.framework */; };
 		EE87C99615518C110072F7D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C99515518C110072F7D0 /* Foundation.framework */; };
 		EE87C99C15518C110072F7D0 /* CommandMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87C99B15518C110072F7D0 /* CommandMap.m */; };
 		EE87C9A415518C110072F7D0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C9A315518C110072F7D0 /* SenTestingKit.framework */; };
-		EE87C9A615518C110072F7D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C9A515518C110072F7D0 /* UIKit.framework */; };
 		EE87C9A715518C110072F7D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C99515518C110072F7D0 /* Foundation.framework */; };
-		EE87C9AA15518C110072F7D0 /* libCommandMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87C99215518C110072F7D0 /* libCommandMap.a */; };
 		EE87C9B015518C110072F7D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE87C9AE15518C110072F7D0 /* InfoPlist.strings */; };
-		EE87C9B315518C110072F7D0 /* CommandMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87C9B215518C110072F7D0 /* CommandMapTests.m */; };
+		EE87CA041551CE2C0072F7D0 /* NSInvocation+Constructor.h in Headers */ = {isa = PBXBuildFile; fileRef = EE87CA011551CE2C0072F7D0 /* NSInvocation+Constructor.h */; };
+		EE87CA051551CE2C0072F7D0 /* NSInvocation+Constructor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87CA021551CE2C0072F7D0 /* NSInvocation+Constructor.m */; };
+		EE87CA071551CE2C0072F7D0 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE87CA031551CE2C0072F7D0 /* readme.txt */; };
+		EE87CA091551CE390072F7D0 /* CommandProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = EE87CA081551CE390072F7D0 /* CommandProtocol.h */; };
+		EE95F6811554EF510004326B /* CommandInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE95F67F1554EF510004326B /* CommandInvocation.h */; };
+		EE95F6821554EF510004326B /* CommandInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F6801554EF510004326B /* CommandInvocation.m */; };
+		EE95F6851554EF6A0004326B /* NotificationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EE95F6831554EF6A0004326B /* NotificationConstants.h */; };
+		EE95F6861554EF6A0004326B /* NotificationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F6841554EF6A0004326B /* NotificationConstants.m */; };
+		EE95F6951554EFF60004326B /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE95F6941554EFF60004326B /* libOCMock.a */; };
+		EE95F6AB1554F6390004326B /* CommandMapTest.h in Sources */ = {isa = PBXBuildFile; fileRef = EE95F6871554EF8C0004326B /* CommandMapTest.h */; };
+		EE95F6AC1554F6390004326B /* CommandMapTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F6881554EF8C0004326B /* CommandMapTest.m */; };
+		EE95F6AD1554F6390004326B /* CommandMapTests.h in Sources */ = {isa = PBXBuildFile; fileRef = EE95F6891554EF8C0004326B /* CommandMapTests.h */; };
+		EE95F6AE1554F6390004326B /* CommandMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F68A1554EF8C0004326B /* CommandMapTests.m */; };
+		EE95F6AF1554F6390004326B /* GenericTestCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = EE95F6911554EFCC0004326B /* GenericTestCommand.h */; };
+		EE95F6B01554F6390004326B /* GenericTestCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F6921554EFCC0004326B /* GenericTestCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +42,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE4D22C21554EAC600BC4520 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EE87C99215518C110072F7D0 /* libCommandMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommandMap.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE87C99515518C110072F7D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EE87C99915518C110072F7D0 /* CommandMap-Prefix.pch */ = {isa = PBXFileReference; path = "CommandMap-Prefix.pch"; sourceTree = "<group>"; };
-		EE87C99A15518C110072F7D0 /* CommandMap.h */ = {isa = PBXFileReference; path = CommandMap.h; sourceTree = "<group>"; };
+		EE87C99915518C110072F7D0 /* CommandMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommandMap-Prefix.pch"; sourceTree = "<group>"; };
+		EE87C99A15518C110072F7D0 /* CommandMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandMap.h; sourceTree = "<group>"; };
 		EE87C99B15518C110072F7D0 /* CommandMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandMap.m; sourceTree = "<group>"; };
 		EE87C9A215518C110072F7D0 /* CommandMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommandMapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE87C9A315518C110072F7D0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		EE87C9A515518C110072F7D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EE87C9AD15518C110072F7D0 /* CommandMapTests-Info.plist */ = {isa = PBXFileReference; path = "CommandMapTests-Info.plist"; sourceTree = "<group>"; };
+		EE87C9AD15518C110072F7D0 /* CommandMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommandMapTests-Info.plist"; sourceTree = "<group>"; };
 		EE87C9AF15518C110072F7D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EE87C9B115518C110072F7D0 /* CommandMapTests.h */ = {isa = PBXFileReference; path = CommandMapTests.h; sourceTree = "<group>"; };
-		EE87C9B215518C110072F7D0 /* CommandMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandMapTests.m; sourceTree = "<group>"; };
+		EE87CA011551CE2C0072F7D0 /* NSInvocation+Constructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Constructor.h"; sourceTree = "<group>"; };
+		EE87CA021551CE2C0072F7D0 /* NSInvocation+Constructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Constructor.m"; sourceTree = "<group>"; };
+		EE87CA031551CE2C0072F7D0 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		EE87CA081551CE390072F7D0 /* CommandProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandProtocol.h; path = CommandMap/CommandProtocol.h; sourceTree = SOURCE_ROOT; };
+		EE95F67F1554EF510004326B /* CommandInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandInvocation.h; sourceTree = "<group>"; };
+		EE95F6801554EF510004326B /* CommandInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandInvocation.m; sourceTree = "<group>"; };
+		EE95F6831554EF6A0004326B /* NotificationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationConstants.h; sourceTree = "<group>"; };
+		EE95F6841554EF6A0004326B /* NotificationConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationConstants.m; sourceTree = "<group>"; };
+		EE95F6871554EF8C0004326B /* CommandMapTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandMapTest.h; sourceTree = "<group>"; };
+		EE95F6881554EF8C0004326B /* CommandMapTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandMapTest.m; sourceTree = "<group>"; };
+		EE95F6891554EF8C0004326B /* CommandMapTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandMapTests.h; sourceTree = "<group>"; };
+		EE95F68A1554EF8C0004326B /* CommandMapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandMapTests.m; sourceTree = "<group>"; };
+		EE95F6911554EFCC0004326B /* GenericTestCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericTestCommand.h; sourceTree = "<group>"; };
+		EE95F6921554EFCC0004326B /* GenericTestCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericTestCommand.m; sourceTree = "<group>"; };
+		EE95F6941554EFF60004326B /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = usr/lib/libOCMock.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,21 +82,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE95F6951554EFF60004326B /* libOCMock.a in Frameworks */,
 				EE87C9A415518C110072F7D0 /* SenTestingKit.framework in Frameworks */,
-				EE87C9A615518C110072F7D0 /* UIKit.framework in Frameworks */,
+				EE4D22C31554EAC600BC4520 /* UIKit.framework in Frameworks */,
 				EE87C9A715518C110072F7D0 /* Foundation.framework in Frameworks */,
-				EE87C9AA15518C110072F7D0 /* libCommandMap.a in Frameworks */,
+				EE4B22751554EDD5009F9E60 /* libCommandMap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE4D22BE1554E22F00BC4520 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		EE87C98715518C110072F7D0 = {
 			isa = PBXGroup;
 			children = (
+				EE95F6941554EFF60004326B /* libOCMock.a */,
 				EE87C99715518C110072F7D0 /* CommandMap */,
 				EE87C9AB15518C110072F7D0 /* CommandMapTests */,
+				EE4D22BE1554E22F00BC4520 /* Libraries */,
 				EE87C99415518C110072F7D0 /* Frameworks */,
 				EE87C99315518C110072F7D0 /* Products */,
 			);
@@ -87,9 +124,9 @@
 		EE87C99415518C110072F7D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE4D22C21554EAC600BC4520 /* UIKit.framework */,
 				EE87C99515518C110072F7D0 /* Foundation.framework */,
 				EE87C9A315518C110072F7D0 /* SenTestingKit.framework */,
-				EE87C9A515518C110072F7D0 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,6 +134,9 @@
 		EE87C99715518C110072F7D0 /* CommandMap */ = {
 			isa = PBXGroup;
 			children = (
+				EE87CA101551CE7D0072F7D0 /* Command */,
+				EE87CA0A1551CE470072F7D0 /* Constants */,
+				EE87CA001551CE2C0072F7D0 /* Categories */,
 				EE87C99A15518C110072F7D0 /* CommandMap.h */,
 				EE87C99B15518C110072F7D0 /* CommandMap.m */,
 				EE87C99815518C110072F7D0 /* Supporting Files */,
@@ -115,8 +155,11 @@
 		EE87C9AB15518C110072F7D0 /* CommandMapTests */ = {
 			isa = PBXGroup;
 			children = (
-				EE87C9B115518C110072F7D0 /* CommandMapTests.h */,
-				EE87C9B215518C110072F7D0 /* CommandMapTests.m */,
+				EE95F6871554EF8C0004326B /* CommandMapTest.h */,
+				EE95F6881554EF8C0004326B /* CommandMapTest.m */,
+				EE95F6891554EF8C0004326B /* CommandMapTests.h */,
+				EE95F68A1554EF8C0004326B /* CommandMapTests.m */,
+				EE95F68D1554EF8C0004326B /* Helpers */,
 				EE87C9AC15518C110072F7D0 /* Supporting Files */,
 			);
 			path = CommandMapTests;
@@ -131,6 +174,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EE87CA001551CE2C0072F7D0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EE87CA011551CE2C0072F7D0 /* NSInvocation+Constructor.h */,
+				EE87CA021551CE2C0072F7D0 /* NSInvocation+Constructor.m */,
+				EE87CA031551CE2C0072F7D0 /* readme.txt */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EE87CA0A1551CE470072F7D0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F6831554EF6A0004326B /* NotificationConstants.h */,
+				EE95F6841554EF6A0004326B /* NotificationConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EE87CA101551CE7D0072F7D0 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F67F1554EF510004326B /* CommandInvocation.h */,
+				EE95F6801554EF510004326B /* CommandInvocation.m */,
+				EE87CA081551CE390072F7D0 /* CommandProtocol.h */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		EE95F68D1554EF8C0004326B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F6911554EFCC0004326B /* GenericTestCommand.h */,
+				EE95F6921554EFCC0004326B /* GenericTestCommand.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -138,6 +219,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE87CA041551CE2C0072F7D0 /* NSInvocation+Constructor.h in Headers */,
+				EE87CA091551CE390072F7D0 /* CommandProtocol.h in Headers */,
+				EE95F6811554EF510004326B /* CommandInvocation.h in Headers */,
+				EE95F6851554EF6A0004326B /* NotificationConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE87C9B015518C110072F7D0 /* InfoPlist.strings in Resources */,
+				EE87CA071551CE2C0072F7D0 /* readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +325,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE87C99C15518C110072F7D0 /* CommandMap.m in Sources */,
+				EE87CA051551CE2C0072F7D0 /* NSInvocation+Constructor.m in Sources */,
+				EE95F6821554EF510004326B /* CommandInvocation.m in Sources */,
+				EE95F6861554EF6A0004326B /* NotificationConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE87C9B315518C110072F7D0 /* CommandMapTests.m in Sources */,
+				EE95F6AB1554F6390004326B /* CommandMapTest.h in Sources */,
+				EE95F6AC1554F6390004326B /* CommandMapTest.m in Sources */,
+				EE95F6AD1554F6390004326B /* CommandMapTests.h in Sources */,
+				EE95F6AE1554F6390004326B /* CommandMapTests.m in Sources */,
+				EE95F6AF1554F6390004326B /* GenericTestCommand.h in Sources */,
+				EE95F6B01554F6390004326B /* GenericTestCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +385,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
@@ -308,6 +403,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -320,6 +416,11 @@
 				DSTROOT = /tmp/CommandMap.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CommandMap/CommandMap-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/usr/lib\"/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -332,6 +433,11 @@
 				DSTROOT = /tmp/CommandMap.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CommandMap/CommandMap-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/usr/lib\"/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -347,7 +453,18 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CommandMap/CommandMap-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/usr/include";
 				INFOPLIST_FILE = "CommandMapTests/CommandMapTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/usr/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -362,7 +479,18 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CommandMap/CommandMap-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/usr/include";
 				INFOPLIST_FILE = "CommandMapTests/CommandMapTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/usr/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -387,6 +515,7 @@
 				EE87C9B815518C110072F7D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE87C9B915518C110072F7D0 /* Build configuration list for PBXNativeTarget "CommandMapTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +524,7 @@
 				EE87C9BB15518C110072F7D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
